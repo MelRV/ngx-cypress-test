@@ -6,7 +6,7 @@ import { onSmartTablePage } from "../support/page_objects/smartTablePage"
 describe('Test with Page Objects', () => {
 
   beforeEach('Open application', () => {
-    cy.visit('/')
+    cy.openHomePage()
   })
   it('Verify the navigation across the pages', () => {
     navigateTo.formLayoutPage()
